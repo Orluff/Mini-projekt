@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "NTttHa1jGZoap+//HJqQIY0T07vmeeGIWt6isg14UrGESsukOqzQo6WlNAdyaZwch1Qqn0jTrvPmT4qlHvvuqQ==",
-  "success": false,
+  "dgSpecHash": "xiGscOBIxCN2ZAseHbIOMD0sBne+PD3XO5ul698RjX3zUu1+vCcW7cL6G6k8lCUcWnhvvsn/K+ccUnMkwBjzwg==",
+  "success": true,
   "projectFilePath": "/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/Neddit/Neddit.csproj",
   "expectedPackageFiles": [
     "/Users/nicolajorluff/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -31,19 +31,8 @@
     "/Users/nicolajorluff/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.4/sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
     "/Users/nicolajorluff/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/nicolajorluff/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/Users/nicolajorluff/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/nicolajorluff/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/nicolajorluff/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore 7.0.11 is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore 7.0.11 supports: net7.0 (.NETCoreApp,Version=v7.0)",
-      "libraryId": "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }
