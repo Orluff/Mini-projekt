@@ -12,7 +12,7 @@ public class ThreadPost
     public string header { get; set; }
     public string text { get; set; }
     public DateTime date { get; set; }
-    public int votes { get; set; }
+    public int votes { get; set; } = 0;
     public List<Comment> comments { get; set; } = new List<Comment>();
     
     public ThreadPost()

@@ -17,29 +17,11 @@ public class Program
         var db = new Context();
         
         User newUser = new User("Nicolaj");
-        db.Add(newUser);
+        //db.Add(newUser);
         
         Console.WriteLine(JsonSerializer.Serialize(newUser));
         Console.WriteLine(JsonSerializer.Serialize(new ThreadPost(newUser, "Header", "Text")));
         Console.WriteLine(JsonSerializer.Serialize(new Comment(newUser, "This is a comment")));
-        
-        /*
-        using (var db = new Context())
-        {
-    
-            // Create
-            Console.WriteLine("Indsætter et nyt thread");
-            db.Add(new ThreadPost(newUser, "Header", "Random Text"));
-            db.SaveChanges();
-
-            // Read
-            Console.WriteLine("Find det sidste thread");
-            var lastThread = db.Threads
-                .OrderBy(t => t.Id)
-                .Last();
-            Console.WriteLine($"Text: {lastThread.text}");
-        }
-        */
         
         //Threads
         app.MapGet("/api/threads", () =>
@@ -85,6 +67,64 @@ public class Program
             db.SaveChanges();
             
             return Results.Created($"/api/threads/{id}", comment);
+        });
+        
+        //Thread - Likes/Dislikes
+        app.MapPost("/api/threads/like/{id}", (int id) =>
+        {
+            var thread = db.Threads.SingleOrDefault(t => t.Id == id);
+            if (thread == null)
+            {
+                return Results.NotFound("Thread not found");
+            }
+
+            thread.votes++;
+            db.SaveChanges();
+
+            return Results.Ok();
+        });
+        
+        app.MapPost("/api/threads/dislike/{id}", (int id) =>
+        {
+            var thread = db.Threads.SingleOrDefault(t => t.Id == id);
+            if (thread == null)
+            {
+                return Results.NotFound("Thread not found");
+            }
+
+            thread.votes--;
+            db.SaveChanges();
+
+            return Results.Ok();
+        });
+        
+        //Comment - Likes/Dislikes
+        app.MapPost("/api/comments/like/{id}", (int id) =>
+        {
+            var comment = db.Comments.SingleOrDefault(c => c.Id == id);
+            if (comment == null)
+            {
+                return Results.NotFound("Comment not found");
+            }
+
+            comment.votes++;
+            db.SaveChanges();
+
+            return Results.Ok();
+        });
+        
+        app.MapPost("/api/comments/dislike/{id}", (int id) =>
+        {
+            var comment = db.Comments.SingleOrDefault(c => c.Id == id);
+            if (comment == null)
+            {
+                return Results.NotFound("Comment not found");
+            }
+
+            comment.votes--;
+            db.SaveChanges();
+
+            return Results.Ok();
         });
 
         app.Run();
