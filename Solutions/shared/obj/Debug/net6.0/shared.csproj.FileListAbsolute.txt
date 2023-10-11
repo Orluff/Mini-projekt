@@ -1,0 +1,12 @@
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/shared/bin/Debug/net6.0/shared.deps.json
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/shared/bin/Debug/net6.0/shared.dll
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/shared/bin/Debug/net6.0/shared.pdb
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/shared/obj/Debug/net6.0/shared.csproj.AssemblyReference.cache
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/shared/obj/Debug/net6.0/shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/shared/obj/Debug/net6.0/shared.AssemblyInfoInputs.cache
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/shared/obj/Debug/net6.0/shared.AssemblyInfo.cs
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/shared/obj/Debug/net6.0/shared.csproj.CoreCompileInputs.cache
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/shared/obj/Debug/net6.0/shared.dll
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/shared/obj/Debug/net6.0/refint/shared.dll
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/shared/obj/Debug/net6.0/shared.pdb
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/shared/obj/Debug/net6.0/ref/shared.dll
