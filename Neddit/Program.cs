@@ -1,6 +1,7 @@
 namespace Neddit;
 
 using Model;
+using Data;
 
 public class Program
 {
@@ -15,7 +16,7 @@ public class Program
     
             // Create
             Console.WriteLine("Indsæt et nyt thread");
-            db.Add(new Thread());
+            db.Add(new ThreadPost());
             db.SaveChanges();
 
             // Read

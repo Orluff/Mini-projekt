@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Neddit.Model;
 
-public class Thread
+public class ThreadPost
 {
     public float threadId { get; set; }
     
@@ -15,7 +15,7 @@ public class Thread
     public int votes { get; set; }
     public List<Comment> comments { get; set; }
     
-    public Thread()
+    public ThreadPost()
     {
         
     }

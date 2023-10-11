@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Neddit.Model;
 
-namespace Neddit.Model
+namespace Neddit.Data
 {
     public class Context : DbContext
     {
-        public DbSet<Thread> Threads { get; set; }
+        public DbSet<ThreadPost> Threads { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<User> Users { get; set; }
         public string DbPath { get; }
@@ -21,7 +22,7 @@ namespace Neddit.Model
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Thread>().ToTable("Threads");
+            modelBuilder.Entity<ThreadPost>().ToTable("Threads");
             modelBuilder.Entity<Comment>().ToTable("Comments");
             modelBuilder.Entity<User>().ToTable("Users");
         }
