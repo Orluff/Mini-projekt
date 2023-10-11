@@ -1,0 +1,6 @@
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/kreddit-app/obj/Debug/net6.0/kreddit-app.csproj.AssemblyReference.cache
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/kreddit-app/obj/Debug/net6.0/kreddit-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/kreddit-app/obj/Debug/net6.0/kreddit-app.AssemblyInfoInputs.cache
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/kreddit-app/obj/Debug/net6.0/kreddit-app.AssemblyInfo.cs
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/kreddit-app/obj/Debug/net6.0/kreddit-app.csproj.CoreCompileInputs.cache
+/Users/nicolajorluff/Documents/IT-Arkitektur/3. Semester/Miniprojekt/Solutions/kreddit-app/obj/Debug/net6.0/kreddit-app.MvcApplicationPartsAssemblyInfo.cache
