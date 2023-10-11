@@ -4,7 +4,7 @@ namespace Neddit.Model;
 
 public class User
 {
-    public float userId { get; set; }
+    public float Id { get; set; }
     [Required]
     public string username { get; set; }
 

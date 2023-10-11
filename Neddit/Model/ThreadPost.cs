@@ -4,7 +4,7 @@ namespace Neddit.Model;
 
 public class ThreadPost
 {
-    public float threadId { get; set; }
+    public float Id { get; set; }
     
     [Required]
     public float userId { get; set; }

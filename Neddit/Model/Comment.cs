@@ -4,7 +4,7 @@ namespace Neddit.Model;
 
 public class Comment
 {
-    public float commentId { get; set; }
+    public float Id { get; set; }
     [Required]
     public float userId { get; set; }
     [Required]

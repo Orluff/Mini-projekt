@@ -10,6 +10,7 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
         var app = builder.Build();
         
+        /*
         using (var db = new Context())
         {
             Console.WriteLine($"Database path: {db.DbPath}.");
@@ -26,7 +27,7 @@ public class Program
                 .Last();
             Console.WriteLine($"Text: {lastThread.text}");
         }
-
+        */
         app.MapGet("/", () => "Hello World!");
 
         app.Run();
