@@ -4,9 +4,9 @@ namespace Neddit.Model;
 
 public class Comment
 {
-    public float Id { get; set; }
+    public int Id { get; set; }
     [Required]
-    public float userId { get; set; }
+    public User user { get; set; }
     [Required]
     public string text { get; set; }
     public DateTime date { get; set; }
@@ -14,6 +14,13 @@ public class Comment
     
     public Comment()
     {
-        
+        date = DateTime.Now;
+    }
+
+    public Comment(User User, string Text)
+    {
+        date = DateTime.Now;
+        this.text = Text;
+        this.user = User;
     }
 }
