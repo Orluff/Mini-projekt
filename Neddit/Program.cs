@@ -70,7 +70,7 @@ public class Program
         });
         
         //Thread - Likes/Dislikes
-        app.MapPost("/api/threads/like/{id}", (int id) =>
+        app.MapPut("/api/threads/like/{id}", (int id) =>
         {
             var thread = db.Threads.SingleOrDefault(t => t.Id == id);
             if (thread == null)
@@ -84,7 +84,7 @@ public class Program
             return Results.Ok();
         });
         
-        app.MapPost("/api/threads/dislike/{id}", (int id) =>
+        app.MapPut("/api/threads/dislike/{id}", (int id) =>
         {
             var thread = db.Threads.SingleOrDefault(t => t.Id == id);
             if (thread == null)
@@ -99,7 +99,7 @@ public class Program
         });
         
         //Comment - Likes/Dislikes
-        app.MapPost("/api/comments/like/{id}", (int id) =>
+        app.MapPut("/api/comments/like/{id}", (int id) =>
         {
             var comment = db.Comments.SingleOrDefault(c => c.Id == id);
             if (comment == null)
@@ -113,7 +113,7 @@ public class Program
             return Results.Ok();
         });
         
-        app.MapPost("/api/comments/dislike/{id}", (int id) =>
+        app.MapPut("/api/comments/dislike/{id}", (int id) =>
         {
             var comment = db.Comments.SingleOrDefault(c => c.Id == id);
             if (comment == null)
