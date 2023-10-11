@@ -13,7 +13,19 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        
+        var AllowCors = "_AllowCors";
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy(name: AllowCors, builder => {
+                builder.AllowAnyOrigin()
+                    .AllowAnyHeader()
+                    .AllowAnyMethod();
+            });
+        });
+        
         var app = builder.Build();
+        app.UseCors(AllowCors);
         var db = new Context();
         
         User newUser = new User("Nicolaj");
@@ -29,6 +41,17 @@ public class Program
             return db.Threads.Include(u => u.user)
                 .Include(c => c.comments)
                 .ThenInclude(uc => uc.user);
+        });
+        
+        app.MapGet("/api/thread/{id}", (int id) =>
+        {
+            var thread = db.Threads
+                .Include(t => t.user)
+                .Include(t => t.comments)
+                .ThenInclude(uc => uc.user)
+                .SingleOrDefault(t => t.Id == id);
+
+            return thread;
         });
 
         app.MapPost("/api/threads", (ThreadPost thread) =>

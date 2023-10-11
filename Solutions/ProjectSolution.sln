@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neddit", "Neddit\Neddit.csproj", "{3E927035-3004-4E0F-9BD9-D36B91D5FD01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kreddit-app", "kreddit-app\kreddit-app.csproj", "{886EAFBF-8344-40D3-A818-802401B42E6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neddit-app", "Neddit-app\Neddit-app.csproj", "{886EAFBF-8344-40D3-A818-802401B42E6D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shared", "shared\shared.csproj", "{95676694-0874-4057-A4E8-9A629C13DC18}"
 EndProject
