@@ -1,0 +1,29 @@
+@using Neddit_app.Data;
+@using shared.Model
+@inject ApiService apiService
+
+<div>
+    <br/>
+    <h3>Write a comment</h3>
+    <input placeholder="Content" type="input" id="content" @bind="content" />
+    <button id="createPostButton" type="button" @onclick="CreateNewComment">Post comment</button>
+</div>
+
+@code {
+    [Parameter]
+    public int PostId { get; set; }
+    private string? content;
+
+    private async void CreateNewComment()
+    {
+        if (string.IsNullOrWhiteSpace(content))
+        {
+            return;
+        }
+
+        Comment comment = new Comment(new User("User"), content);
+
+        await apiService.CreateComment(PostId, comment);
+    }
+
+}

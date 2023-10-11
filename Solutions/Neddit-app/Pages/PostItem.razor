@@ -1,0 +1,87 @@
+﻿<!-- 
+Notice how this route has a route parameter 'id'. This is how we can pass data to the route.
+See how the links are made in 'PostList.razor'.
+-->
+@page "/post/{id}"
+
+@using Neddit_app.Data;
+@using shared.Model;
+@inject ApiService apiService
+
+<PageTitle>Neddit</PageTitle>
+
+<style>
+div.contents {
+  background-color: #f2f0eb;
+  width: 600px;
+  border: 2px solid #452d3d;
+  padding: 10px;
+  margin-top: 20px;
+}
+</style>
+
+@if (Post == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="contents">
+        <h4>@Post.header</h4>
+        <p><strong>User: @Post.user.username</strong></p>
+        <p><strong>Likes: @(Post.votes)</strong></p>
+        <p>@Post.text</p>
+    </div>
+
+    <div class="contents">
+    <h4>Comments</h4>
+    <table>
+        <tr>
+            <th>User</th>
+            <th>Comment</th>
+            <th colspan="3">Votes</th>
+        </tr>
+        @foreach (var comment in Post.comments)
+        {
+            <tr>
+                <td>@comment.user.username</td>
+                <td>@comment.text</td>
+                <td>@(comment.votes)</td>
+                <td><button @onclick="() => Upvote(comment.Id)">Upvote</button></td>
+                <td><button @onclick="() => Downvote(comment.Id)">Downvote</button></td>
+            </tr>
+        }
+    </table>
+    </div>
+
+    <!-- This demonstrates how to pass in PostId to the component 'CreateComment'. See how 
+         it is used in the file CreateComment.razor -->
+    <CreateComment PostId=@PostId></CreateComment>
+}
+
+@code {
+    [Parameter]
+    public string Id { get; set; }
+    public int PostId { get { return int.Parse(Id); } }
+    public ThreadPost Post { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Post = await apiService.GetPost(PostId);
+    }
+    private async Task Upvote(int id)
+    {
+        await apiService.UpvoteComment(id);
+        
+        Post = (await apiService.GetPost(PostId));
+        StateHasChanged();
+    }
+
+    private async Task Downvote(int id)
+    {
+        await apiService.DownvoteComment(id);
+        
+        Post = (await apiService.GetPost(PostId));
+        StateHasChanged();
+    }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Neddit-app.props" />
+</Project>
