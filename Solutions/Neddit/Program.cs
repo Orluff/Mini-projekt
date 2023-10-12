@@ -56,7 +56,7 @@ public class Program
 
         app.MapPost("/api/threads", (ThreadPost thread) =>
         {
-            db.Add(thread);
+            db.Threads.Add(thread);
             db.SaveChanges();
         });
         
@@ -89,7 +89,7 @@ public class Program
             thread.comments.Add(comment);
             db.SaveChanges();
 
-            return Results.Ok();
+            return Results.Ok(comment);
         });
         
         //Thread - Likes/Dislikes
