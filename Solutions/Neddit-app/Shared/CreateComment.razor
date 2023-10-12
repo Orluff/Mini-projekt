@@ -13,6 +13,8 @@
     [Parameter]
     public int PostId { get; set; }
     private string? content;
+    [Parameter]
+    public EventCallback<Action> OnCommentPosted { get; set; }
 
     private async void CreateNewComment()
     {
@@ -24,6 +26,7 @@
         Comment comment = new Comment(new User("User"), content);
 
         await apiService.CreateComment(PostId, comment);
+        
+        OnCommentPosted.InvokeAsync();
     }
-
 }
