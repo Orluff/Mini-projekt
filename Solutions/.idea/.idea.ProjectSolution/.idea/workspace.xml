@@ -12,36 +12,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd71557c-505c-41ab-8628-25e3d5debe67" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Neddit-app/Pages/PostItem.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/Pages/PostItem.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit-app/Services/ApiService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/Services/ApiService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit-app/Shared/CreateComment.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/Shared/CreateComment.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/Neddit-app.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/Neddit-app.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/Neddit-app.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/Neddit-app.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/wwwroot/_framework/Neddit-app.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/wwwroot/_framework/Neddit-app.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/wwwroot/_framework/Neddit-app.dll.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/wwwroot/_framework/Neddit-app.dll.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/wwwroot/_framework/Neddit-app.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/wwwroot/_framework/Neddit-app.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/wwwroot/_framework/Neddit-app.pdb.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/wwwroot/_framework/Neddit-app.pdb.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSolution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Solutions.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solutions.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/dotnet.js" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/dotnet.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/Neddit-app.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/Neddit-app.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/Neddit-app.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/Neddit-app.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/Neddit-app.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/Neddit-app.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/blazor.boot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/build-gz/00Ly67XX.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/build-gz/00Ly67XX.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/build-gz/jI6fO3F9.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/build-gz/jI6fO3F9.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/ref/Neddit-app.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/ref/Neddit-app.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/refint/Neddit-app.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/obj/Debug/net6.0/refint/Neddit-app.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit/Migrations/ContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/Migrations/ContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit/bin/Debug/net7.0/Neddit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/bin/Debug/net7.0/Neddit.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit/bin/Debug/net7.0/Neddit.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/bin/Debug/net7.0/Neddit.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neddit-app/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neddit-app/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit-app/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neddit/.idea/.idea.Neddit.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/.idea/.idea.Neddit.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Neddit/bin/Neddit.db" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/bin/Neddit.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit/bin/Neddit.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/bin/Neddit.db-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit/bin/Neddit.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/bin/Neddit.db-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit/obj/Debug/net7.0/Neddit.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/obj/Debug/net7.0/Neddit.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit/obj/Debug/net7.0/Neddit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/obj/Debug/net7.0/Neddit.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit/obj/Debug/net7.0/Neddit.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/obj/Debug/net7.0/Neddit.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit/obj/Debug/net7.0/ref/Neddit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/obj/Debug/net7.0/ref/Neddit.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit/obj/Debug/net7.0/refint/Neddit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/obj/Debug/net7.0/refint/Neddit.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neddit/obj/Neddit.csproj.EntityFrameworkCore.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/obj/Neddit.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neddit/bin/Neddit.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neddit/bin/Neddit.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neddit/obj/Debug/net7.0/Neddit.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/obj/Debug/net7.0/Neddit.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neddit/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neddit/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Neddit/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/shared/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +41,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Neddit-app/Pages/PostItem.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Neddit-app/Services/ApiService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3839fc8fee5ae62538a4469ed86bbba1ccd15d4e0da63bba779abe1719da3/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -70,7 +58,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;TestBranch&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -178,6 +166,9 @@
       <workItem from="1697025969990" duration="6080000" />
       <workItem from="1697032075571" duration="6955000" />
       <workItem from="1697089746279" duration="2147000" />
+      <workItem from="1697301474544" duration="56000" />
+      <workItem from="1697305464091" duration="5097000" />
+      <workItem from="1697385355291" duration="2049000" />
     </task>
     <servers />
   </component>
